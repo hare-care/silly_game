@@ -11,7 +11,7 @@
 
 
 
-
+// modified code from here: https://www.pretentiousname.com/miscsoft/index.html#ScreenSave
 int turn_off_monitor(void)
 {
 	LPCTSTR szClassNameMain = _T("ScreenSaveMain");
