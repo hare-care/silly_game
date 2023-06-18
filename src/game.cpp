@@ -68,7 +68,6 @@ int check_guess(int user, int target) {
 
 int game_loop(int level) {
     correct_number = rand() % (int) pow(10,level);
-    std::cout << correct_number; // DELETE THIS FOR FINAL
     if (level == 1) {
         std::cout << "Silly game! ";
     } else {
